@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.chart-container {
+    width: 60%;
+}
+.stats-container {
+    width: 35%;
+    padding: 20px;
+    border-left: 2px solid #ddd;
+    text-align: left;
+}
+canvas {
+    max-width: 100%;
+}
+select {
+    padding: 8px;
+    margin: 10px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.abnormal {
+    color: rgb(191, 127, 127);
+    font-weight: bold;
+}
+.normal {
+    color: rgb(134, 201, 141);
+    font-weight: bold;
+}
+.bar-chart-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.bar-chart-container > div {
+    width: 48%;
+}
+.high-low-container {
+margin: 20px 0;
+padding: 15px;
+background: #f5f5f5;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#highLowChart {
+max-height: 400px;
+margin-top: 10px;
+}
+
+
+
+.chart-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+
+
+.analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#anomalyClusterChart {
+    width: 100% !important;
+    height: 400px !important;
+  }
